@@ -127,3 +127,94 @@ export const STATS = [
   { label: "Years Experience", value: "15+", icon: <Award /> },
   { label: "On-time Delivery", value: "99%", icon: <CheckCircle /> }
 ];
+
+export const PRICING_PACKAGES = [
+  {
+    name: "Basic Visibility Package",
+    price: "₹9,999 – ₹11,999",
+    description: "Perfect for small battery stores, medical shops & biryani outlets.",
+    features: [
+      "Professional 5-page mobile-friendly website",
+      "Full Google Business Profile setup + optimization (photos, posts, keywords)",
+      "Contact form + Google Maps",
+      "Basic SEO so you appear in “near me” searches",
+      "Delivered in 5–7 days"
+    ],
+    footer: "Ideal for first-time online presence. Many clients get calls within 1 week!",
+    popular: false
+  },
+  {
+    name: "Standard Growth Package",
+    price: "₹18,999 – ₹22,999",
+    description: "Best choice for schools, medical shops, biryani restaurants & battery stores.",
+    features: [
+      "Everything in Basic + Dynamic WordPress website",
+      "Up to 12 pages (Home, About, Menu, Gallery, etc.)",
+      "Enquiry & WhatsApp buttons",
+      "Fast loading + basic speed optimization",
+      "Google listing fully managed for first month",
+      "Delivered in 10–12 days"
+    ],
+    footer: "Hundreds of local businesses are getting more customers daily with this package.",
+    popular: true
+  },
+  {
+    name: "Premium Pro Package",
+    price: "₹29,999 – ₹34,999",
+    description: "For growing battery stores, schools & bigger outlets.",
+    features: [
+      "Full dynamic website with 15+ pages",
+      "Lite e-commerce (sell products/menu online)",
+      "Custom design as per your brand colors",
+      "Google Analytics + advanced SEO",
+      "3 months free maintenance & updates",
+      "Google Business Profile management (3 months)",
+      "Delivered in 12–15 days"
+    ],
+    footer: "Get professional online presence like big city shops at Tier-3 price.",
+    popular: false
+  },
+  {
+    name: "Google Listing Only",
+    price: "₹3,999 – ₹5,999",
+    description: "Already have a basic website? Just need more customers?",
+    features: [
+      "Complete Google Business Profile creation/verification",
+      "Professional photos upload + category optimization",
+      "Weekly posts setup for 1 month",
+      "Keyword optimization for “near me” searches",
+      "Live in 2–3 days"
+    ],
+    footer: "Many shops see 30–50% more calls after this.",
+    popular: false
+  },
+  {
+    name: "Annual Maintenance & Support",
+    price: "₹3,999/year",
+    subPrice: "₹2,999 if bought with website",
+    description: "Keep your website fast, secure & updated.",
+    features: [
+      "Monthly backups",
+      "Security updates",
+      "Content changes (up to 4 per year)",
+      "Google listing posts & review replies",
+      "Priority support on WhatsApp"
+    ],
+    footer: "Peace of mind for busy shop/school owners.",
+    popular: false
+  }
+];
+
+export const ADD_ONS = {
+  title: "Add-on Services",
+  price: "Starting ₹2,000",
+  description: "Need more?",
+  items: [
+    "Extra pages or custom sections",
+    "Online menu with ordering",
+    "Hindi + English bilingual website",
+    "Professional photos & video shoot",
+    "Monthly Google posts & leads management"
+  ],
+  footer: "Just tell us what you need – we customize!"
+};
