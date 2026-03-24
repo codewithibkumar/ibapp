@@ -74,7 +74,7 @@ export const PROJECTS = [
     title: "Bihar Shikshak Seva Portal",
     link: "https://biharteachers.ibapp.co.in",
     location: "Bihar",
-    desc: "A complete teacher recruitment and service portal for the Government of Bihar. Built with secure login and real-time updates.",
+    desc: "Bihar Teacher's Digital Partner that Generate pdf documents for teacher and make their task easier.",
     tech: ["React", "Node.js", "PostgreSQL"],
     img: "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&w=800&q=80"
   },
