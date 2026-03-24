@@ -9,6 +9,7 @@ import { Navbar } from './components/layout/Navbar';
 import { Hero } from './components/sections/Hero';
 import { About } from './components/sections/About';
 import { Services } from './components/sections/Services';
+import { Pricing } from './components/sections/Pricing';
 import { Portfolio } from './components/sections/Portfolio';
 import { Stats } from './components/sections/Stats';
 import { Testimonials } from './components/sections/Testimonials';
@@ -31,6 +32,7 @@ export default function App() {
         <Hero />
         <About />
         <Services />
+        <Pricing />
         <Portfolio />
         <Stats />
         <Testimonials />
