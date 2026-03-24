@@ -1,0 +1,7 @@
+{
+  "name": "IBAPP Portfolio - Global Web & Mobile App Developer in Delhi",
+  "description": "Professional portfolio of IBAPP, an expert web and mobile app developer based in Delhi, India, serving clients worldwide. Specializing in high-performance digital solutions.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
